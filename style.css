@@ -1,0 +1,88 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+  }
+  
+  button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 6px 24px;
+  }
+
+  /* Header section */
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    background-color: #1f2937;
+  }
+
+  .logo {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    flex-shrink: 1;
+  }
+
+  .logo img {
+    /* object-fit: cover; */
+    /* object-position: top; */
+    /* display: block; */
+    /* height: 100%; */
+    /* width: 100%; */
+  }
+
+  .header-section ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    padding: 0px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+  }
+
+
+  /* Intro section */
+  .intro-section {
+    display: flex;
+    background-color: #1f2937;
+    padding: 20px 200px;
+  }
+
+  .placehold-image {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-shrink: 1;
+  }
+
+  .main-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+  }
+
+  .intro-text {
+    color: #ffffff;
+    /* display: fle; */
+  }
+
+  /* Content section */
+
+
+  /* End section */
+
+
+  /* Footer section */
