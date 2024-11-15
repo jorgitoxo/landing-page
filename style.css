@@ -58,36 +58,34 @@ body {
   .intro-section {
     display: flex;
     background-color: #1f2937;
-    padding: 60px 300px 120px;
-    /* height: 250px; */
+    padding: 60px 400px 120px;
+    gap: 80px;
+    justify-content: center;
   }
 
   .placehold-image {
-      /* flex-shrink: 1; */
-    height: auto;
-    width: 500px;
     display: flex;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+    width: 460px;
     background-color:#6d747d ;
     color: #e5e7eb;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
   }
-
+    
   .main-title {
+    width: 420px;
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
   }
-
-  .intro-text {
-    color: #ffffff;
-    width: 420px;
-  }
-
+  
   .subtext {
+    width: 420px;
     margin-top: 6px;
     margin-bottom: 12px;
+    color: #ffffff;
   }
 
   /* Content section */
