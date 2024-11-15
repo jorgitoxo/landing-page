@@ -12,9 +12,14 @@ body {
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
-    padding: 6px 24px;
+    /* padding: 6px 24px; */
     cursor: pointer;
     border: 1px solid royalblue;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /* Header section */
@@ -59,7 +64,7 @@ body {
   /* Intro section */
   .intro-section {
     background-color: #1f2937;
-    padding: 60px 0px 120px;
+    padding: 60px 0px 140px;
     display: flex;
     justify-content: center;
     gap: 80px;
@@ -98,14 +103,14 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    padding: 40px 0px;
+    padding: 42px 0px;
   }
  
  .content-section .gallery {
     display: flex;
     list-style-type: none;
     gap: 50px;
-    padding: 0px 260px;
+    padding: 0px 260px 120px;
     margin-bottom: 60px;
     justify-content: center;
   }
@@ -115,6 +120,8 @@ body {
     flex-direction: column;
     flex-shrink: 0;
     width: 160px;
+    height: auto;
+    gap: 8px;
   }
 
   .gallery img {
@@ -128,7 +135,7 @@ body {
 
   .quote {
     background-color: #e5e7eb;
-    padding: 80px;
+    padding: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,6 +154,7 @@ body {
   .quote-author {
     text-align: right;
     font-weight: 900;
+    font-size: 22px;
     width: 720px;
   }
 
@@ -154,7 +162,7 @@ body {
   .end-section {
     display: flex;
     justify-content: center;
-    padding: 80px;
+    padding: 100px;
   }
   
   .end-section  .content {
@@ -163,6 +171,7 @@ body {
     padding: 50px;
     display: flex;
     justify-content: center;
+    align-items: end;
     gap: 120px;
     flex-shrink: 0;
     border-radius: 6px;
@@ -180,7 +189,21 @@ body {
   
   .end-section button {
     border: 2px solid #e5e7eb;
-    padding: 6px 24px;
-    font-size: 18px;
+    /* padding: 1px 0; */
+    /* padding: 6px 24px; */
+    /* font-size: 18px; */
   }
+
   /* Footer section */
+  .footer-section {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 40px;
+  }
+  .footer-section .copyright-text {
+    display: flex;
+    flex-shrink: 0;
+  }
