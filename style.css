@@ -12,7 +12,6 @@ body {
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
-    /* padding: 6px 24px; */
     cursor: pointer;
     border: 1px solid royalblue;
     width: 120px;
@@ -40,11 +39,6 @@ body {
 
   .logo img {
       border-radius: 50px;
-    /* object-fit: cover; */
-    /* object-position: top; */
-    /* display: block; */
-    /* height: 100%;
-    width: 100%; */
   }
 
   .header-section ul {
@@ -55,7 +49,11 @@ body {
     gap: 26px;
   }
 
-  a {
+  .header-section li {
+    align-content: center;
+  }
+
+  .header-section a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -110,7 +108,8 @@ body {
     display: flex;
     list-style-type: none;
     gap: 50px;
-    padding: 0px 260px 120px;
+    padding: 0px 260px 60px;
+    margin-top: 0px;
     margin-bottom: 60px;
     justify-content: center;
   }
@@ -119,13 +118,14 @@ body {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    width: 160px;
-    height: auto;
+    width: 150px;
+    /* Try to find a way to make picture taller */
+    /* height: 200px; */
+    /* height: auto; */
     gap: 8px;
   }
 
   .gallery img {
-    width: 100%;
     border-radius: 8px;
   }
 
@@ -148,7 +148,6 @@ body {
     font-weight: 300;
     color: #1f2937;
     width: 780px;
-    /* display: flex; */
   }
 
   .quote-author {
@@ -189,9 +188,6 @@ body {
   
   .end-section button {
     border: 2px solid #e5e7eb;
-    /* padding: 1px 0; */
-    /* padding: 6px 24px; */
-    /* font-size: 18px; */
   }
 
   /* Footer section */
