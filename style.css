@@ -151,6 +151,36 @@ body {
   }
 
   /* End section */
+  .end-section {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+  }
+  
+  .end-section  .content {
+    background-color: #3882f6;
+    width: 900px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    color: #e5e7eb;
+  }
+  .end-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
 
-
+  .end-subtext {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .end-section button {
+    border: 2px solid #e5e7eb;
+    padding: 6px 24px;
+    font-size: 18px;
+  }
   /* Footer section */
